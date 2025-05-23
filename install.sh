@@ -12,3 +12,6 @@ sh -c "$(wget -O- https://github.com/deluan/zsh-in-docker/releases/download/v1.1
 unalias gp
 
 export SHELL=zsh
+
+nvm use v18
+npm install -g @anthropic-ai/claude-code@latest
